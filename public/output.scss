@@ -2039,38 +2039,21 @@ div.c-hamburger > .c-hamburger-inner {
      object-fit: cover !important;
 }
 
-.p-2 {
-  padding: 0.5rem !important;
+.p-4 {
+  padding: 1rem !important;
 }
 
 .p-\[10px\] {
   padding: 10px !important;
 }
 
-.p-\[40px\] {
-  padding: 40px !important;
-}
-
 .p-\[4px\] {
   padding: 4px !important;
-}
-
-.p-\[20px\] {
-  padding: 20px !important;
-}
-
-.p-4 {
-  padding: 1rem !important;
 }
 
 .px-\[10px\] {
   padding-left: 10px !important;
   padding-right: 10px !important;
-}
-
-.px-\[28px\] {
-  padding-left: 28px !important;
-  padding-right: 28px !important;
 }
 
 .px-\[40px\] {
@@ -2093,6 +2076,11 @@ div.c-hamburger > .c-hamburger-inner {
   padding-bottom: 15px !important;
 }
 
+.py-\[20px\] {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
 .py-\[2px\] {
   padding-top: 2px !important;
   padding-bottom: 2px !important;
@@ -2111,11 +2099,6 @@ div.c-hamburger > .c-hamburger-inner {
 .py-\[5px\] {
   padding-top: 5px !important;
   padding-bottom: 5px !important;
-}
-
-.py-\[20px\] {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
 }
 
 .pb-\[10px\] {
@@ -3190,27 +3173,14 @@ div.c-hamburger > .c-hamburger-inner {
   margin-top: 0px !important;
 }
 
-.hover\:bg-green-97:hover {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(151 182 64 / var(--tw-bg-opacity)) !important;
-}
-
-.hover\:bg-grey-c4:hover {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(196 196 196 / var(--tw-bg-opacity)) !important;
-}
-
 .hover\:bg-green-06:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(6 109 59 / var(--tw-bg-opacity)) !important;
 }
 
-.hover\:bg-opacity-50:hover {
-  --tw-bg-opacity: 0.5 !important;
-}
-
-.hover\:bg-opacity-40:hover {
-  --tw-bg-opacity: 0.4 !important;
+.hover\:bg-grey-c4:hover {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(196 196 196 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-opacity-20:hover {

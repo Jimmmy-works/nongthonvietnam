@@ -21,10 +21,10 @@ const HeaderTop = () => {
             </h3>
           </div>
           <div className="">
-            <p className="font-rl text-xs leading-[14px] text-black-29">
+            <p className="font-rl leading-[14px] text-black-29 text-xs">
               Thứ ba, ngày 07-03-2023
             </p>
-            <p className="font-rl text-xs  leading-[14px] text-black-29">
+            <p className="font-rl leading-[14px]  text-black-29 text-xs">
               TP. Hồ Chí Minh 22° - 34°C
             </p>
           </div>
@@ -43,14 +43,14 @@ const HeaderTop = () => {
           <div className="relative flex items-center justify-center ">
             <a
               href="#"
-              className="block font-rm text-sm leading-[18px] transition-colors duration-[400ms] hover:text-green-06"
+              className="block font-rm leading-[18px] transition-colors duration-[400ms] text-sm hover:text-green-06"
             >
               ĐĂNG NHẬP
             </a>
             <span className="span-line"></span>
             <a
               href="#"
-              className="font-rm text-sm leading-[18px] transition-colors duration-[400ms] hover:text-green-06"
+              className="font-rm leading-[18px] transition-colors duration-[400ms] text-sm hover:text-green-06"
             >
               ĐĂNG KÝ
             </a>

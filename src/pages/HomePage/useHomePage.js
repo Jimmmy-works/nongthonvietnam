@@ -27,7 +27,6 @@ const useHomePage = () => {
     });
     setSearchParams(new URLSearchParams(newQuerryString));
   };
-  console.log('queryObject', queryObject);
   //// Call API
   const { data: dataNews, loading } = useQuery(() =>
     newService.getNews(LIMIT_ITEM)
@@ -66,13 +65,13 @@ const useHomePage = () => {
       CATEGORY_OPTION.LANG_NGHE_VIET.id
     )
   );
-  const [comparedTime, setComparedTime] = useState();
-  const [comparedTimeAgricultural, setComparedTimeAgricultural] = useState();
-  //// timeNewest
-  const timeNewest = dataNews?.map((news, index) => {
-    const newTime = news.publicationTime;
-    return { time: timeVN(newTime), import_today: '1.10' };
-  });
+  // const [comparedTime, setComparedTime] = useState();
+  // const [comparedTimeAgricultural, setComparedTimeAgricultural] = useState();
+  // //// timeNewest
+  // const timeNewest = dataNews?.map((news, index) => {
+  //   const newTime = news.publicationTime;
+  //   return { time: timeVN(newTime), import_today: '1.10' };
+  // });
 
   return {
     dataNews,
