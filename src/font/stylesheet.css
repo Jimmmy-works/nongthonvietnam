@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'rm';
+  src:
+    url('RobotoSerif-Medium.woff2') format('woff2'),
+    url('RobotoSerif-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rr';
+  src:
+    url('RobotoSerif-Regular.woff2') format('woff2'),
+    url('RobotoSerif-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rb';
+  src:
+    url('RobotoSerif-Bold.woff2') format('woff2'),
+    url('RobotoSerif-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'rl';
+  src:
+    url('RobotoSerif-Light.woff2') format('woff2'),
+    url('RobotoSerif-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
