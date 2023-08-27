@@ -159,7 +159,7 @@ const HomePage = () => {
               <TitleSection
                 classNameFirstLine={`w-full bg-grey-99`}
                 classNameSecondLine={`bg-grey-99`}
-                classNameTitle={`text-grey-7b text-md font-rb px-[28px]`}
+                classNameTitle={`text-grey-7b xs:text-sm lg:text-md font-rb lg:px-[28px]`}
                 className={`sm:col-start-1 sm:col-end-7 lg:col-start-1 lg:col-end-9`}
                 renderProps={() => {
                   return (

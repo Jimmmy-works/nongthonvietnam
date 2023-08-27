@@ -3440,6 +3440,11 @@ div.c-hamburger > .c-hamburger-inner {
     font-size: 1.2rem !important;
     line-height: 2rem !important;
   }
+
+  .xs\:text-sm {
+    font-size: 1.4rem !important;
+    line-height: 2rem !important;
+  }
 }
 
 @media (min-width: 640px) {
@@ -3855,6 +3860,11 @@ div.c-hamburger > .c-hamburger-inner {
     border-right-color: rgb(0 0 0 / var(--tw-border-opacity)) !important;
   }
 
+  .lg\:px-\[28px\] {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
   .lg\:pl-\[16px\] {
     padding-left: 16px !important;
   }
@@ -3874,6 +3884,18 @@ div.c-hamburger > .c-hamburger-inner {
   .lg\:text-sm {
     font-size: 1.4rem !important;
     line-height: 2rem !important;
+  }
+
+  .lg\:text-md {
+    font-size: 1.4rem !important;
+    line-height: 2rem !important;
+  }
+
+  @media (min-width: 360px) {
+    .lg\:text-md {
+      font-size: 1.6rem !important;
+      line-height: 2rem !important;
+    }
   }
 
   .lg\:text-2xl {
