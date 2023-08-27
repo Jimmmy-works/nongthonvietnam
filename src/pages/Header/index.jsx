@@ -1,14 +1,13 @@
 import Hamberger from '@/components/Hamberger';
 import { motion } from 'framer-motion';
 import React, { forwardRef, useRef } from 'react';
-import Banner from '../../components/banner';
 import HeaderBottom from './HeaderBottom';
-import HeaderListMenu from './HeaderListMenu';
 import HeaderMiddle from './HeaderMiddle';
 import HeaderTop from './HeaderTop';
 import useHeader from './useHeader';
 import { twMerge } from 'tailwind-merge';
 import { useMainContext } from '@/components/MainContext';
+import Banner from '@/components/Banner';
 const Header = () => {
   const { ToogleSubscriptionMagazine } = useMainContext();
   const {
