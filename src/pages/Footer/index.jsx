@@ -8,7 +8,6 @@ const Footer = () => {
   const { data: dataCategories, loading: loadingCategories } = useQuery(
     newService.getCategories
   );
-  console.log('dataCategories', dataCategories);
   return (
     <footer className="bg-[#E5E5E580] pt-[60px] xs:mt-[40px] md:mt-[80px] lg:mt-[130px]">
       <div className="container pb-[32px]">
@@ -361,11 +360,17 @@ const Footer = () => {
             </div>
             <div className="flex flex-wrap items-center gap-[6px] xs:justify-center lg:justify-normal">
               <p className="font-rr text-sm">Tel:</p>
-              <a className="phone font-rb text-sm " href="tel:+0932056666">
+              <a
+                className="phone font-rb transition-colors duration-300 text-sm hover:text-green-06"
+                href="tel:+0932056666"
+              >
                 093.205.6666
               </a>
               -
-              <a className="phone font-rb text-sm " href="tel:+0932056666">
+              <a
+                className="phone font-rb transition-colors duration-300 text-sm hover:text-green-06"
+                href="tel:+0932056666"
+              >
                 (028) 3821 1283
               </a>
             </div>
@@ -376,7 +381,7 @@ const Footer = () => {
             <div className="email flex flex-wrap items-center  gap-[6px] xs:justify-center lg:justify-normal">
               <p className="font-rr text-sm">Email:</p>
               <a
-                className="font-rb text-sm"
+                className="font-rb transition-colors duration-300 text-sm hover:text-green-06"
                 href="mailto:toasoan@nongthonviet.com.vn"
               >
                 toasoan@nongthonviet.com.vn

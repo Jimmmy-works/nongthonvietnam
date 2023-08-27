@@ -27,6 +27,7 @@ const useHomePage = () => {
     });
     setSearchParams(new URLSearchParams(newQuerryString));
   };
+  console.log('queryObject', queryObject);
   //// Call API
   const { data: dataNews, loading } = useQuery(() =>
     newService.getNews(LIMIT_ITEM)
