@@ -3200,6 +3200,23 @@ div.c-hamburger > .c-hamburger-inner {
   background-color: rgb(196 196 196 / var(--tw-bg-opacity)) !important;
 }
 
+.hover\:bg-green-06:hover {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(6 109 59 / var(--tw-bg-opacity)) !important;
+}
+
+.hover\:bg-opacity-50:hover {
+  --tw-bg-opacity: 0.5 !important;
+}
+
+.hover\:bg-opacity-40:hover {
+  --tw-bg-opacity: 0.4 !important;
+}
+
+.hover\:bg-opacity-20:hover {
+  --tw-bg-opacity: 0.2 !important;
+}
+
 .hover\:fill-green-97:hover {
   fill: #97B640 !important;
 }

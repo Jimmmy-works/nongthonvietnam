@@ -14,7 +14,7 @@ const Backtotop = () => {
         <a
           href=""
           className="rounded-t-[80px] border-b border-b-grey-d9 px-[10px] py-[15px] transition-colors duration-300 
-          hover:bg-green-97"
+          hover:bg-green-06 hover:bg-opacity-20"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const Backtotop = () => {
         <div
           onClick={ToogleSubscriptionMagazine}
           className="cursor-pointer  border-b border-b-grey-d9 p-[10px] transition-colors duration-300 
-          hover:bg-green-97"
+          hover:bg-green-06 hover:bg-opacity-20"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Backtotop = () => {
         <div
           onClick={onBacktotop}
           className="cursor-pointer rounded-b-[80px] p-[10px] transition-colors duration-300 
-          hover:bg-green-97"
+          hover:bg-green-06 hover:bg-opacity-20"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
